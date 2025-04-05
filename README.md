@@ -1,3 +1,4 @@
+#Note
 I am developed this by using react 
 
 used create-react-app third party package for initialzing
@@ -6,12 +7,13 @@ styled-components (for styling for status bar) third party package
 css for styling 
 useState and useEffect used 
 
+#deployed in netlify
 
 
 
 # if you want to run this in your machine
 
-git clone (repository url)
+git clone https://github.com/DaveedGangi/EclotoDesign.git
 cd ecloto
 npm install 
 npm start

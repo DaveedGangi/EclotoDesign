@@ -3,7 +3,7 @@
     padding:22px;
     padding-left:55px;
     padding-right:55px;
-    height:100vh;
+    background-size: cover;
 
 }
 
@@ -87,6 +87,7 @@ h2{
     border-radius: 4px;
     box-shadow: 0,0,0.5,9,#e1dddd;
     font-weight: 450;
+    margin-bottom: 14px;
 }
 .empty{
     color:brown;
@@ -106,6 +107,7 @@ h2{
     margin-top:13px;
     padding:13px;
     border-radius: 4px;
+    margin-bottom:12px;
 }
 .decrease-quantity{
     background-color:#d6722f;
