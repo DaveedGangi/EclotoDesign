@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+.bg-cart{
+    background-color: rgb(234, 239, 241);
+    padding:22px;
+    padding-left:55px;
+    padding-right:55px;
+    height:100vh;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1{
+    text-align: center;
+    color:darkred;
+}
+h2{
+    color:brown;
+    text-align: left;
+    margin-top: 34px;
+    
+}
+.product{
+    height:105px;
+    width:200px;
+    box-shadow: 0,0.4,2,8,gainsboro;
+    text-align: center;
+    background-color: aliceblue;
+    padding:12px;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom:13px;
+}
+.different-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.cart-button{
+    background-color: darkorchid;
+    color: aliceblue;
+    border: 0px;
+    height:34px;
+    width:100%;
+    text-align: center;
+    margin-top:14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 530;
+    
+}
+.product-name{
+    color:black;
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 500;
+   
+
+}
+.product-price{
+    color:brown;
+    font-weight: 400;
+    
+}
+.cart-summary{
+    background-color: aliceblue;
+    box-shadow: 0,0,2,9,whitesmoke;
+    padding:13px;
+    border-radius: 4px;
+    font-weight: 450;
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.empty-cart-view{
+    text-align: center;
+    align-items: center;
+    padding:13px;
+    margin-top:22px;
+    background-color: rgb(207, 234, 234);
+    border-radius: 4px;
+    box-shadow: 0,0,0.5,9,#e1dddd;
+    font-weight: 450;
+}
+.empty{
+    color:brown;
+    font-weight: 600;
+}
+.empty-para{
+    color:darkcyan;
+    font-weight: 550;
+}
+.cart-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    box-shadow: 0,0,2,5,#e1dddd;
+    margin-top:13px;
+    padding:13px;
+    border-radius: 4px;
+}
+.decrease-quantity{
+    background-color:#d6722f;
+    color:aliceblue;
+    cursor: pointer;
+    border:0px;
+    text-align: center;
+    height:22px;
+    width:25px;
+    border-radius: 4px;
+}
+.increase-quantity{
+    background-color: #64d62f;
+    color:aliceblue;
+    cursor: pointer;
+    border: 0px;
+    text-align: center;
+    height:22px;
+    width:25px;
+    border-radius: 4px;
+    
+    
+}
+.free-gift{
+    background-color: #b8f49d;
+    color:#d77533;
+    font-size: small;
+    padding:4px;
+    border-radius: 12px;
+    font-weight: 600;
+    width:68px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.remove-item-button{
+    background-color: #eedcd0;
+    color:rgb(19, 31, 31);
+    border: 0px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    width: 75px;
+    height: 24px;
+    cursor: pointer;
+    margin-top:14px;
+  
+    
+    
 }
-
-.App-link {
-  color: #61dafb;
+.remove-item-button:hover{
+    background-color: #64d62f;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.increase-quantity:hover{
+    background-color:#90eb20;
+    color:brown;
+}
+.decrease-quantity:hover{
+    background-color:#7f8b70;
+    color: brown;
+}
+.cart-button:hover{
+    background-color: rgb(54, 54, 137);
+    color:aliceblue;
+    
+}
+.cart-product-names{
+    font-weight: 510;
+}
+.cart-product-prices{
+    font-weight: 400;
 }
